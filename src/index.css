@@ -27,6 +27,7 @@ input::-webkit-outer-spin-button {
 }
 
 *::-webkit-scrollbar {
+  
   height: 2px;
   width: 2px;
 }
