@@ -43,6 +43,7 @@ function App() {
         setmsg('');
         setname('');
         settel('');
+        
       })
       .catch((error) => console.error(error));
     window.location = `https://wa.me//5562998144484?text=${msg === '' ? `Nome:${name} Cidade/Estado:${city}-${state}` : msg.replace(/ /g, "%20")}`
